@@ -12,7 +12,10 @@ function App() {
     // setError(null);
 
     try {
-      const response = await fetch(`https://catfact.ninja/facts?page=${page}`);
+      // https://catfact.ninja/facts?
+      const response = await fetch(
+        `${import.meta.env.VITE_API_URL}?page=${page}`
+      );
       const data = await response.json();
 
       setItems((prevItems) => [...prevItems, ...data.data]);
