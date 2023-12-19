@@ -65,9 +65,9 @@ The implementation of infinite scroll in React
 - [![Vite][Vite]][Vite-url]
 - [![React][React.js]][React-url]
 - [![TypeScript]][TypeScript]
-- [![FontAwesome][FontAwesome]][FontAwesome-url]
+<!-- - [![FontAwesome][FontAwesome]][FontAwesome-url]
 - [![UnoCSS][UnoCSS]][UnoCSS-url]
-<!-- - [![ESLint][ESLint]][ESLint-url]
+- [![ESLint][ESLint]][ESLint-url]
 - [![Prettier][Prettier]][Prettier-url]
 - [Husky][Husky-url] -->
 
@@ -117,8 +117,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [ ] Implement scrolling
-- [ ] Add CSS and Font Awesome
+- [x] Implement scrolling
+- [ ] Use StyleX
 - [ ] Refactor
   - [ ] Divide into separate components
 
@@ -135,10 +135,10 @@ See the [open issues](https://github.com/yujhenchen/infinite-scroll-react/issues
 #### Answer
 
 
-
 ### What if there are more data overflow than viewport height?
 
 #### Answer
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,11 +208,11 @@ Project Link: [https://github.com/yujhenchen/infinite-scroll-react](https://gith
 [Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
 [Vite-url]: https://vitejs.dev/
 [TypeScript]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
-[FontAwesome]: https://a11ybadges.com/badge?logo=fontawesome
+<!-- [FontAwesome]: https://a11ybadges.com/badge?logo=fontawesome
 [FontAwesome-url]: https://fontawesome.com/
 [UnoCSS]: https://img.shields.io/badge/unocss-333333.svg?style=for-the-badge&logo=unocss&logoColor=white
 [UnoCSS-url]: https://unocss.dev/
-<!-- [ESLint]: https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white
+[ESLint]: https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white
 [ESLint-url]: https://eslint.org/
 [Prettier]: https://ziadoua.github.io/m3-Markdown-Badges/badges/Prettier/prettier1.svg
 [Prettier-url]: https://prettier.io/
